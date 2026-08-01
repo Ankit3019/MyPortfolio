@@ -391,6 +391,20 @@
     visibility: hidden;
     transition: var(--transition-2);
   }
+
+  .download-resume-btn {
+    display: inline-block;
+    margin-top: 12px;
+    padding: 8px 12px;
+    background: var(--border-gradient-onyx);
+    color: var(--orange-yellow-crayola);
+    border-radius: 10px;
+    font-size: var(--fs-8);
+    text-align: center;
+    box-shadow: var(--shadow-1);
+  }
+
+  .download-resume-btn:hover { background: var(--bg-gradient-yellow-1); color: var(--smoky-black); }
   
   .sidebar.active .sidebar-info_more {
     opacity: 1;
